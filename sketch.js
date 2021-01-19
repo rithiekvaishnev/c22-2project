@@ -65,7 +65,7 @@ function draw() {
 }
 
 function keyPressed() {
- if (keyDown (DOWN_ARROW)) {
+ if (keyCode ===  DOWN_ARROW) {
 	  Body.setStatic(star,false); 
 	}
 }
